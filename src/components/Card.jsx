@@ -18,7 +18,7 @@ export function Card() {
       <>
           {PROFILES.map((profile) => {
               return (
-                  <div key={profile.Name}>
+                  <div key={profile.Name} class="border-2 border-white-500 w-24">
                     <div>{profile.Name}</div>
                     <div>{profile.Age}</div>
                     <div>{profile.Sex}</div>
